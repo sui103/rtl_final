@@ -1,16 +1,16 @@
-.title {
+.memory {
     background-color: #ffffff;
     padding-top: 45px;
     padding-bottom: 40px;
 }
 
-.title h2 {
+.memory h2 {
     font-size: 22px;
     font-weight: bold;
     text-align: center;
 }
 
-.title h2::after {
+.memory h2::after {
     content: '';
     display: block;
     width: 36px;
