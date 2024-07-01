@@ -21,16 +21,31 @@
     margin-right: auto;
     margin-bottom: 30px;
 }
+.memory-list {
+    display: flex;
+    width: 100%;
+    padding-top: 40px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
 
-.memory dl {
+.memory li {
+    flex-shrink: 0;
+    width: 50%;
+    padding: 50px;
+    padding: 50px;
+}
+
+.memory li dl {
     padding-top: 20px;
 }
 
-.memory dl dt {
+.memory li dl dt {
     font-size: 20px;
     margin-bottom: 5px;
 }
 
-.memory dl dd {
+.memory li dl dd {
     font-size: 15px;
 }
