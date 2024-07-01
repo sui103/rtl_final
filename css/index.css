@@ -122,7 +122,8 @@ img {
     }
     .header-logo {
         width: 100px;
-    }.header-site-menu{
+    }
+    .header-site-menu{
         position: absolute;
         top: 100%;
         left: 0;
