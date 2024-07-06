@@ -18,3 +18,20 @@ $(function() {
         500);
     });
 });
+
+$(function() {
+    const clickBtn = document.getElementById('click-btn');
+    const popupWrapper = document.getElementById('popup-wrapper');
+    const close =document.getElementById('close');
+
+    clickBtn.addEventListener('click', () => {
+        popupWrapper.style.display = "block";
+    });
+
+    popupWrapper.addEventListener('click', e => {
+        if (e.target.id === popupWrapper.id || e.target.id === close.id) {
+            popupWrapper.style.display = 'none';
+        }
+    });
+
+})
