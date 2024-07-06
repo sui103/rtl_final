@@ -21,3 +21,22 @@
     margin-right: auto;
     margin-bottom: 20px;
 }
+
+.news_list_item {
+    padding: 10px;
+    border-bottom: solid 1.5px #d3d3d3;
+}
+
+.news_list_item:first-child {
+    border-top: solid 1.5px #d3d3d3;
+}
+
+.news_list_date time {
+    font-size: 15px;
+    float: left;
+}
+
+.news_item {
+    font-size: 15px;
+    margin-left: 10px;
+}
