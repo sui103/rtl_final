@@ -90,7 +90,7 @@ img {
         left: 0;
         right: 0;
         color:#ffffff;
-        background-color: #6495ed;
+        background-color: rgba(43, 96, 203, 0.5);
         padding-top: 30px;
         padding-bottom: 50px;
         display: none;
