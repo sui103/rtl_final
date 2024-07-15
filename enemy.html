@@ -5,7 +5,7 @@
         <title>敵紹介</title>
         <meta name="description" content="敵紹介">
         <meta name="viewport" content="width=device-width">
-        <script src="js/script.js"></script>
+        <script src="js/hamberger.js"></script>
         <link href="css/enemy.css" rel="stylesheet">
         <link href="css/common.css" rel="stylesheet">
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -14,26 +14,22 @@
     </head>
     <body>
         <header class="header">
-            <div class="header-area">
+            <div class="header-inner">
                 <a class="header-logo" href="index.html">
                     <img src="images/titlelogo.png" alt="ロゴ">
                 </a>
-                <div class="hamburger">
-                    <!-- ハンバーガーメニューの線 -->
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <!-- /ハンバーガーメニューの線 -->
+                <button class="toggle-menu-button"></button>
+                <div class="header-site-menu">
+                    <nav class="site-menu">
+                        <ul>
+                            <li><a href="chara.html">キャラクター</a></li>
+                            <li><a href="enemy.html">敵紹介</a></li>
+                            <li><a href="memory.html">名場面</a></li>
+                            <li><a href="news.html">news</a></li>
+                        </ul>
+                    </nav>
                 </div>
             </div>
-            <nav class="site-menu">
-                <ul>
-                    <li><a href="chara.html">キャラクター</a></li>
-                    <li><a href="enemy.html">敵紹介</a></li>
-                    <li><a href="memory.html">名場面</a></li>
-                    <li><a href="news.html">news</a></li>
-                </ul>
-            </nav>
         </header>
         <main class="main">
             <div class="chara">
